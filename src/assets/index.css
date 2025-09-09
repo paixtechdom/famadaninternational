@@ -1,9 +1,14 @@
-@import url(https://db.onlinewebfonts.com/c/2bf3e5ac189bddb42ce75cccf46ec2ac?family=Menoe+Grotesque+Pro+Regular);
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 
 .center{
     display: flex;
@@ -11,14 +16,6 @@
     justify-content: center;
 }
 
-h1, h2, h3, h4{
-    font-family: "Formular Black", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-p, li, label, a{
-    font-family: "Menoe Grotesque Pro Regular", 'Times New Roman', Times, serif;
-}
 
 .blob{
     animation: blob 20s ease-in-out infinite;
