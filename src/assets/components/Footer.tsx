@@ -9,11 +9,11 @@ export const Footer = () => {
     
     return(
         <section className="bg-secondary bg-opacity-20 min-h-[40vh] center flex-col">
-            <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row justify-between gap-x-[150px] gap-[10vh] py-[15vh]">
+            <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row justify-between gap-x-[150px] gap-[10vh] py-[8vh]">
 
                 <div className="flex flex-col gap-6">
                     <img src={logo} alt="Cloud Transio Logo" className="h-fit w-3/12"/>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-3">
                         <div className="mb-2 text-xl text-gray-950 font-bold">Contact Us</div>
                         {
                             contactInfo.map((contact, i ) => (
@@ -57,11 +57,11 @@ export const Footer = () => {
 
             </div>
 
-            <div className="center flex-col bg-zinc-900 text-secondary h-[10vh] md:h-[15vh] w-full border-t border-primary">
+            <div className="center flex-col bg-zinc-900 text-secondary h-[10vh] py-5 w-full border-t border-primary">
                 <p className="flex gap-1">
                     All rights reserved <span className="text-primary">{new Date().getFullYear()}</span>
                 </p>
-                <strong className="text-2xl"> &copy; <span className="text-primary">Famadan International Limited</span></strong>
+                <strong className="text-xl"> &copy; <span className="text-primary">Famadan International Limited</span></strong>
             </div>
         </section>
     )

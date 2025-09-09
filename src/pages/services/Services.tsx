@@ -6,7 +6,7 @@ import { products } from '../../assets/Constants'
 import { AService } from './AService'
 import { ImageText } from '../../assets/components/ImageText'
 import hero from "../../assets/images/1.jpg"
-import img2 from "../../assets/images/2.jpg"
+// import img2 from "../../assets/images/2.jpg"
 import img3 from "../../assets/images/3.jpg"
 import img4 from "../../assets/images/4.jpg"
 import img5 from "../../assets/images/5.jpg"
@@ -19,7 +19,7 @@ import img11 from "../../assets/images/16.png"
 import img12 from "../../assets/images/8.jpg"
 
 const imgs = [
-    img2,
+    // img2,
     img3,
     img4,
     img6,
@@ -77,7 +77,7 @@ const Services = () => {
             </div>
 
 
-            <div className="grid grid-cols-3 gap-2 lg:gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 pb-[7vh]">
                 {
                     imgs.map((img, i) => (
                         <img src={img} alt="" key={i}
