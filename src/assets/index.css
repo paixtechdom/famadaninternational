@@ -1,0 +1,34 @@
+@import url(https://db.onlinewebfonts.com/c/2bf3e5ac189bddb42ce75cccf46ec2ac?family=Menoe+Grotesque+Pro+Regular);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4{
+    font-family: "Formular Black", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p, li, label, a{
+    font-family: "Menoe Grotesque Pro Regular", 'Times New Roman', Times, serif;
+}
+
+.blob{
+    animation: blob 20s ease-in-out infinite;
+}
+
+@keyframes blob{
+    0%{
+        border-radius: 33% 47% 57% 23% / 35% 25% 55% 45%;
+    }
+    55%{
+        border-radius: 13% 57% 17% 33% / 25% 55% 25% 35%;
+    }
+}
