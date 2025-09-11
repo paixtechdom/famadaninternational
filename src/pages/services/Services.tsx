@@ -17,6 +17,8 @@ import img9 from "../../assets/images/10.jpg"
 import img10 from "../../assets/images/11.jpg"
 import img11 from "../../assets/images/16.png"
 import img12 from "../../assets/images/8.jpg"
+import img13 from "../../assets/images/20.jpg"
+import img14 from "../../assets/images/21.jpg"
 
 const imgs = [
     // img2,
@@ -30,6 +32,8 @@ const imgs = [
     img9,
     img11,
     img12,
+    img13,
+    img14,
 ]
 const Services = () => {
   return (

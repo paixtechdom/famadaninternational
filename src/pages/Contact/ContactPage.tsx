@@ -24,9 +24,9 @@ export const contactInfo = [
     },
     {
         icon: <BsEnvelopeFill />,
-        contact: "famadaninternationallimited@gmail.com",
+        contact: "famadaninternatioallimited@gmail.com",
         title: "Send a message",
-        link: "mailto:famadaninternationallimited@gmail.com"
+        link: "mailto:famadaninternatioallimited@gmail.com"
     },
 ]
 
